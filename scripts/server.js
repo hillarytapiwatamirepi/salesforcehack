@@ -19,6 +19,6 @@ app.use('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    // console.log("Im heere");
+    console.log('running first server');
     console.log(`✅  Server started: http://${HOST}:${PORT}`);
 });
