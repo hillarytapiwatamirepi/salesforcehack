@@ -4,13 +4,20 @@
     "version": "0.0.1",
     "author": "hillaryFloe",
     "bugs": "https://github.com/hillaryFloe/good-samaritan/issues",
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true
+        }
+    },
     "dependencies": {
         "compression": "^1.7.4",
+        "eslint": "^7.5.0",
         "express": "^4.17.1",
-        "helmet": "^3.23.3"
+        "helmet": "^3.23.3",
+        "mongoose": "^5.9.26"
     },
     "devDependencies": {
-        "eslint": "^7.5.0",
         "husky": "^4.2.5",
         "lint-staged": "^10.2.11",
         "lwc-services": "^2.1.4",

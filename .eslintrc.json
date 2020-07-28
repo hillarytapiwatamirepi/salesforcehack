@@ -16,7 +16,9 @@
                 "lwc-services.config.js"
             ],
             "env": {
-                "node": true
+                "node": true,
+                "browser": true,
+                "amd": true
             }
         }
     ]
