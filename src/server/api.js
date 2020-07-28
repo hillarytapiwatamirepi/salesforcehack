@@ -15,7 +15,10 @@ app.get('/api/v1/endpoint', (req, res) => {
 });
 
 app.listen(PORT, () =>
+    // console.log("Im here")
     console.log(
         `✅  API Server started: http://${HOST}:${PORT}/api/v1/endpoint`
     )
 );
+
+module.exports = { file: 'candy' };
