@@ -1,0 +1,36 @@
+<template>
+    <div class="container-flex">
+        <!-- <c-navbar></c-navbar> -->
+
+        <div class="bottom-component-flex">
+            <div class="sidebar">
+                <h1>FILTER BY</h1>
+                <H2>Category</H2>
+                <!-- <lightning-checkbox-group
+                    class="checkbox"
+                    name="Checkbox Group"
+                    label="Checkbox Group"
+                    options={options}
+                    value={value}
+                    onchange={handleChange}
+                >
+                </lightning-checkbox-group> -->
+            </div>
+
+            <div class="requests"></div>
+            <div class="map-and-current-request">
+                <div class="search">
+                    <div class="map"></div>
+                    <div class="heading">Request Details</div>
+                    <div class="bullet"></div>
+                    <div class="userRequesting">{name}</div>
+                    <div class="request">
+                        <div class="querry">{request}</div>
+                        <div class="priceTag">Price: {price}</div>
+                    </div>
+                    <button>Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

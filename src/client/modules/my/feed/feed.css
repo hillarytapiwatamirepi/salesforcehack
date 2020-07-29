@@ -1,0 +1,94 @@
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.sidebar {
+    background-color: #957758;
+    flex: 1;
+    color: white;
+    padding: 16px;
+}
+.bottom-component-flex {
+    display: flex;
+    flex-direction: row;
+}
+.requests {
+    flex: 1;
+    background-color: #d6a641;
+}
+.map-and-current-request {
+    flex: 1;
+    background-color: #957758;
+}
+.checkbox {
+    color: white;
+    padding-left: 24px;
+}
+.sidebar h1 {
+    font-weight: 600;
+}
+
+.sidebar h2 {
+    padding-left: 12px;
+}
+/* 
+  * {
+    color: white;
+  } */
+.heading {
+    text-transform: uppercase;
+    padding: 10px;
+}
+.bullet {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+}
+
+.userRequesting {
+    position: relative;
+    margin-left: 100px;
+}
+.search {
+    background-color: #957758;
+}
+
+.request {
+    position: relative;
+    margin-top: 20px;
+    background-color: #d6a641;
+    width: 170px;
+    height: 70px;
+    left: 40px;
+    border-radius: 10px;
+}
+
+.querry {
+    position: relative;
+    font-size: 10px;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.priceTag {
+    position: relative;
+    padding-left: 15px;
+}
+
+button {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #4696bd;
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    left: 40px;
+}
