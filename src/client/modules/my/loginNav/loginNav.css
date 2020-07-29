@@ -1,0 +1,43 @@
+.soke-header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.soke-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.soke-header-tag {
+    display: flex;
+    /* align-items:center; */
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content {
+    padding: 0 3rem;
+}
+header {
+    padding: 1rem;
+    display: flex;
+    color: #ffffff;
+    background: #1798c1;
+    box-shadow: 0 4px 3px rgba(1, 87, 155, 0.5);
+    align-items: center;
+}
+header img {
+    height: 3rem;
+    margin-right: 0.3rem;
+}
+header h2 {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
